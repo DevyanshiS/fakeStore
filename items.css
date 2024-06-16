@@ -1,0 +1,33 @@
+*, ::before, ::after{ margin: 0; box-sizing: border-box; }
+html{ font-size: 15px; scroll-behavior: smooth; }
+body{ font:  16px/1.4 'Trebuchet MS'; }
+a{ text-decoration: none; }
+label{ display: inline-block; }
+
+button{ cursor: pointer; }
+
+
+.container{ max-width: 1200px; margin: auto; padding: 0 1rem; }
+.container h1{ font-size: 4rem; text-align: center; background: black; color: #fff; }
+.container img{ width: 100%; }
+
+
+.clothingContainer{ display: flex; flex-flow: row wrap; }
+.col-6{ max-width: 33.33%; flex-basis: 33.33%; flex: 1 0 auto; }
+.clothing-item{ border: 1px solid black; text-align: center; width: 300px; padding: 1rem; height: auto; overflow: auto; }
+.clothing-item img{ width: 80%; height: 40%; margin-bottom: 2rem; }
+.itemDetails{ margin-bottom: auto; }
+.itemDetails p{ margin: 10px; }
+.itemDetails button{ background: none; padding: 5px; }
+.ratings{ border: 1px solid black; border-radius: 5px; display: inline-block; padding: 2px; background: #000; color: #fff; }
+.itemDesc{ text-align: justify; }
+
+
+
+/* ipad */
+@media screen and (max-width:1220px) {
+    .col-t-6{ max-width: 100%; flex-basis: 100%; margin: 5px; }
+}
+
+
+
